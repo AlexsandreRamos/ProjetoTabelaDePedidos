@@ -68,6 +68,9 @@ public class TabelaDePedidos {
             total = quantidade * 3.00;
             System.out.printf("Seu/s %d Refrigerante/s saiu: R$%.2f",quantidade,total);
         }
+        else{
+            System.out.println("Não existe um item com esse código");
+        }
         
         }}}}
             
