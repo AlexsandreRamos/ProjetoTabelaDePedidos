@@ -6,32 +6,7 @@ import java.util.Scanner;
 public class Ifelseeee {
 
     public static void main(String[] args) {
-       
-        /*Scanner teclado = new Scanner(System.in);
-        
-        int numero,numero1;
-        
-        System.out.println("Escolha um numero aleatorio negativo ou positivo:");
-        
-       numero = teclado.nextInt();
-        
-        if (numero < 0){
-            System.out.printf("o numero é negativo e ");
-            
-        }
-        else 
-          
-            System.out.printf("o numero é positivo e ");
-        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        if (numero %2 == 0){
-            System.out.println("par");
-        }
-        else{
-            System.out.println("impar");
-        }      
-        */
-       
-        Scanner teclado = new Scanner(System.in);
+              Scanner teclado = new Scanner(System.in);
         
         String enter;
         int pedido, quantidade; 
