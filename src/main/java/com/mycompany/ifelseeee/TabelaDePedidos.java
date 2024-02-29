@@ -3,7 +3,7 @@ package com.mycompany.ifelseeee;
 
 import java.util.Scanner;
 
-public class Ifelseeee {
+public class TabelaDePedidos {
 
     public static void main(String[] args) {
               Scanner teclado = new Scanner(System.in);
@@ -13,21 +13,20 @@ public class Ifelseeee {
         double total;
         
         System.out.printf(
-                 " 1  | Cachorro Quente | R$4.00 \n "
+                 "-n°-|-------Item------|--Valor--\n"
+                + " 1  | Cachorro Quente | R$4.00 \n "
                 + "2  |     X-Salada    | R$4.50 \n "
                 + "3  |     X-Bacon     | R$5.00 \n "
                 + "4  | Torrada Simples | R$2.00 \n "
                 + "5  |   Refrigerante  | R$3.00 \n ");
         
-        System.out.println("pressione o enter para continuar:");
-        enter = teclado.nextLine();
-       
-         
-  
-     
-        System.out.println("Escreva o numero do pedido:");
         
-        pedido = teclado.nextInt();
+        
+        System.out.println("\npressione o enter para continuar:");
+            enter = teclado.nextLine();
+        
+        System.out.println("Escreva o número do pedido:");
+            pedido = teclado.nextInt();
         
         if ( pedido == 1){
             
