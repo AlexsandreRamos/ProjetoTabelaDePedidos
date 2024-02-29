@@ -1,5 +1,5 @@
 
-package com.mycompany.ifelseeee;
+package com.mycompany.ProjetoCardapioDePedidos;
 
 import java.util.Scanner;
 
